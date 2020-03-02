@@ -7,28 +7,28 @@ body{
     max-height: 57px; 
 }
 .navigation .navbar-brand{
-    color: white; 
+    color: #FFFFFF; 
     margin-left: 30px; 
     padding: inherit; 
     font-weight: bold; 
-    background-color: #0BADA6;
+    background-color: #335EFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
-    background-color: white; 
+    background-color: #FFFFFF; 
     font-size: 15px; 
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
     background-color:#E7E7E7!important; 
 }
 .dropdown-item{
-    color: #6D8092 !important; 
+    color: #000000 !important; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:#E7E7E7 !important; 
 }
 a{
-    color: #6D8092;
+    color: #000000;
     font-size: 15px; 
 }
 .nav-link:hover{
@@ -36,7 +36,7 @@ a{
    }
 
 .navbar-brand:hover{
-color: rgb(175, 175, 175) !important;
+color: #E7E7E7 !important;
 }
 /* Images */
 img{
@@ -44,7 +44,7 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:#0BADA6;
+    border-color:#335EFF;
     border-style: solid; 
     
 }
@@ -55,14 +55,14 @@ img{
 
 /* Title Class  */
 .title{
-    color: #0BADA6;  
+    color: #335EFF;  
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
 /* Paragraph Element */
 p{
- color: #6D8092;
+ color: #000000;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 17px; 
 }
@@ -72,18 +72,18 @@ p{
     margin-bottom: 62px; 
     padding: 10px 20px 15px; 
     color:black;
-    background-color: white; 
+    background-color: #FFFFFF; 
 
   }
 /* Table */
   .table{
     font-size: 15px; 
-    border-top-color: white !important; 
+    border-top-color: #FFFFFF !important; 
 }
 /* Media Queries */
 @media(max-width: 992px){
 .navbar-expand-lg{
-background-color: #0BADA6 !important;
+background-color: #335EFF !important;
 }
 .navbar{
     max-height: none; 
@@ -91,7 +91,7 @@ background-color: #0BADA6 !important;
 }
 .navbar div{
     margin: inherit; 
-    background-color: white;  
+    background-color: #FFFFFF;  
 }
 .navbar-brand{
     padding: 10px !important; 
